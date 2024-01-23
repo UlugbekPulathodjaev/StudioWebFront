@@ -62,11 +62,13 @@ html {
     background: #273A37;
 }
 .header__nav-link {
+    scroll-behavior: smooth;
     font-family: "Ruberoid-Regular", sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 27px;
     color: #fff;
+
 }
 .header__desc {
     position: absolute;
@@ -888,4 +890,20 @@ html {
     position: absolute;
     top: 3240px;
     left:1078px;
+}
+
+
+
+.send {
+    width: 184px;
+    height: 52px;
+    border-radius: 41px;
+    border: 1.5px solid #2EECC5;
+    background: #193631;
+    color: #fff;
+    font-family: 'Ruberoid-Regular', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    cursor: pointer;
 }

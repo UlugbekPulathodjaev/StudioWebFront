@@ -1,6 +1,5 @@
 <div>
-
-    <div name="main">
+    <section id="main">
         <div class="header">
             <img src="../../../assets/img/banner.png" alt="" class="banner">
             <img src="../../../assets/img/chudik.png" alt="" class="chudik">
@@ -35,9 +34,8 @@
             </div>
             <div class="line"></div>
         </div>
-    </div>
-    
-        <div class="info">
+    </section>
+        <section id="info">
             <img src="../../../assets/img/bg.jpg" alt="" class="bg">
             <div class="container">
                 <div class="info__wrapper">
@@ -82,7 +80,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <div class="tariff">
             <div class="container">
                 <h2 class="tariff-h">Тарифы</h2>
@@ -190,7 +188,7 @@
                                         placeholder="Ваш комментарий ( по желанию )" formControlName="Comment">
                                 </div>
                                 <div>
-                                    <button (click)="post()">Отправить</button>
+                                    <button (click)="post()" class="send">Отправить</button>
                                 </div>
                                 
                             </div>
